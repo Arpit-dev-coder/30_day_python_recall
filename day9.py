@@ -65,8 +65,8 @@ elif (a==0):
     print("a is a zero")
 else:
     print("a is negetive")
-
-user="james"
+# just password attempt thing
+user="admin"    # attacker
 access_level=3
 if user == "admin" or access_level>=4: # type: ignore
     print("access granted")
