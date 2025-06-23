@@ -68,7 +68,7 @@ else:
 
 user="james"
 access_level=3
-if user == "admin" or access_level>=4:
+if user == "admin" or access_level>=4: # type: ignore
     print("access granted")
 else:
     print("access denied")
